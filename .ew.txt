@@ -1,4 +1,0 @@
-mkdocs-material==9.1.18
-mkdocs-awesome-pages-plugin 
-pillow
-cairosvg
