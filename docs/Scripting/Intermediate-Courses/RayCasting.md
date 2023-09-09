@@ -1,6 +1,7 @@
 ---
 title: Introduction To Raycasting!
 template: docs.html
+comments: true
 hide:
   - navigation
 ---

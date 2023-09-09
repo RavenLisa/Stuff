@@ -38,7 +38,7 @@ theme:
          toggle:
            icon: material/weather-sunny
            name: Switch to light mode
-         primary: blue
+         primary: black
          accent: purple
     features:
       - announce.dismiss
