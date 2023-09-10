@@ -27,19 +27,21 @@ theme:
       text: Roboto
       code: JetBrains Mono
     palette:
-      #light
-      -  scheme: default
-         toggle:
-           icon: material/weather-night
-           name: Switch to dark mode
-         primary: blue
-         accent: deep orange
       -  scheme: slate
          toggle:
            icon: material/weather-sunny
            name: Switch to light mode
          primary: black
          accent: purple
+      -  scheme: default
+         toggle:
+           icon: material/weather-night
+           name: Switch to dark mode
+         primary: blue
+         accent: deep orange
+      
+      #light
+      
     features:
       - announce.dismiss
       - navigation.top
@@ -137,10 +139,10 @@ plugins:
         name: card
   - blog:
       blog_dir: Blog
-  - social:
-      cards_color:
-        fill: "#0FF1CE" 
-        text: "#FFFFFF"
+  #- social:
+  #    cards_color:
+  #      fill: "#0FF1CE" 
+  #      text: "#FFFFFF"
   
 nav:
   - Home: index.md
