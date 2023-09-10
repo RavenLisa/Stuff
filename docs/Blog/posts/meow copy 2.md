@@ -1,6 +1,8 @@
 ---
 draft: true 
 date: 2022-01-31 
+authors:
+  - Sora
 categories:
   - Hello
   - World
