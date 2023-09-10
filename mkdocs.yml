@@ -143,10 +143,11 @@ plugins:
       post_url_format: "{date}/{file}"
       archive: false
       categories: false
-  - social:
-      cards_color:
-        fill: "#0FF1CE" 
-        text: "#FFFFFF"
+      post_dir: Updates/posts
+  #- social:
+  #    cards_color:
+  #      fill: "#0FF1CE" 
+  #      text: "#FFFFFF"
   
 nav:
   - Home: index.md
@@ -194,6 +195,4 @@ nav:
   - ...
   - Others:
     - ... | flat | Others/*.md # not sorted yet
-  - Updates:
-    - Updates/index.md
   - Faq: Faq/index.md
