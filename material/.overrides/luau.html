@@ -45,12 +45,12 @@
         margin: 20px;
         padding: 10px;
         box-sizing: border-box;
-        border: 0px solid #ffffff;
+        border: 0px solid #ccc;
         border-radius: 10px;
         transition: all 0.2s ease-in-out;
-        background: linear-gradient(to bottom, rgb(16, 0, 104), a63fd9);;
+        background: linear-gradient(to bottom, rgb(4, 133, 253), rgb(0, 0, 0));;
       }
-      /*a63fd9 background: linear-gradient(to bottom, rgb(4, 133, 253), rgb(0, 0, 0));;*/
+      
       /* Show the post description when hovering over the post */
       .post:hover .post-description {
         opacity: 1;
@@ -95,6 +95,7 @@
       text-align: center;
       font-size: 36px;
       }
+
     </style>
   </head>
   {{ super() }}
@@ -108,6 +109,8 @@
 </section>
 <body>
 
+  
+  
   <h3>Basic Courses</h3>
   <!-- Include the default mkdocs header -->
   <!-- Create a container for the post grid -->
@@ -325,4 +328,3 @@
   {% block content %}{% endblock %}
 
   {% block footer %}{% endblock %}
-
