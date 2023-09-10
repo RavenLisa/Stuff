@@ -138,14 +138,14 @@ plugins:
       theme:
         name: card
   - blog:
-      blog_dir: Updates
+    #  blog_dir: blog
       post_url_date_format: yyyy
       post_url_format: "{date}/{file}"
       archive: false
       categories: false
-      post_dir: Updates/posts
-  - social:
-      cards_color:
+    #  post_dir: Updates/posts
+  #- social:
+  #    cards_color:
   #      fill: "#0FF1CE" 
   #      text: "#FFFFFF"
   
@@ -193,8 +193,8 @@ nav:
       - Scripting/Advanced-Courses/Inheritance.md
     # - ... | flat | Scripting/*.md # not sorted yet
   - ...
-  - Updates:
-      - Updates/index.md
+  - Blog:
+      - Blog/index.md
   - Others:
     - ... | flat | Others/*.md # not sorted yet
   - Faq: Faq/index.md
