@@ -152,7 +152,7 @@ plugins:
 nav:
   - Home: index.md
   - Scripting:
-    - ... | flat | Scripting/*.md
+    #- ... | flat | Scripting/*.md
     # - Scripting/home.md
     - Basic-Courses:
       - Scripting/Basic-Courses/Introduction_To_Studio.md
@@ -192,7 +192,7 @@ nav:
       - Scripting/Advanced-Courses/HttpService.md
       - Scripting/Advanced-Courses/Inheritance.md
     # - ... | flat | Scripting/*.md # not sorted yet
-  - ...
+  #- ...
   - Updates:
       - Updates/index.md
   - Others:
