@@ -137,7 +137,7 @@ plugins:
         name: card
   - blog:
       blog_dir: Blog
-   - social:
+  - social:
       cards_color:
         fill: "#0FF1CE" 
         text: "#FFFFFF"
