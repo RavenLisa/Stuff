@@ -3,3 +3,4 @@ mkdocs-awesome-pages-plugin
 pillow
 cairosvg
 mkdocs-blogging-plugin
+upgrade pip
