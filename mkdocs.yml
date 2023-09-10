@@ -193,8 +193,8 @@ nav:
       - Scripting/Advanced-Courses/Inheritance.md
     # - ... | flat | Scripting/*.md # not sorted yet
   - ...
-  - Blog:
-      - Blog/index.md
+  - blog:
+      - blog/index.md
   - Others:
     - ... | flat | Others/*.md # not sorted yet
   - Faq: Faq/index.md
