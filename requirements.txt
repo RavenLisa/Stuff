@@ -1,4 +1,4 @@
-mkdocs-material==9.2.7
+mkdocs-material==9.2.0
 mkdocs-awesome-pages-plugin 
 pillow
 cairosvg
