@@ -127,22 +127,26 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
-  - blogging:
-      dirs: # The directories to be included
-        - Updates
-      features:
-        tags: {}
-        locale: en         # The locale for time localizations, default: system's locale
-      time_format: '%Y-%m-%d %H:%M:%S' # The format used to display the time
-      meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
-      theme:
-        name: card
+  #- blogging:
+  #    dirs: # The directories to be included
+  #      - Updates
+  #    features:
+   #     tags: {}
+  #      locale: en         # The locale for time localizations, default: system's locale
+  #    time_format: '%Y-%m-%d %H:%M:%S' # The format used to display the time
+  #    meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
+  #    theme:
+  #      name: card
   - blog:
-      blog_dir: Blog
-  #- social:
-  #    cards_color:
-  #      fill: "#0FF1CE" 
-  #      text: "#FFFFFF"
+      blog_dir: Updates
+      post_url_date_format: yyyy
+      post_url_format: "{date}/{file}"
+      archive: false
+      categories: false
+  - social:
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
   
 nav:
   - Home: index.md
@@ -187,9 +191,9 @@ nav:
       - Scripting/Advanced-Courses/HttpService.md
       - Scripting/Advanced-Courses/Inheritance.md
     # - ... | flat | Scripting/*.md # not sorted yet
-  - Blog:
-    - Blog/index.md
   - ...
   - Others:
     - ... | flat | Others/*.md # not sorted yet
+  - Updates:
+    - Updates/index.md
   - Faq: Faq/index.md

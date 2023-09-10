@@ -1,4 +1,2 @@
----
-title: updates
-template: docs.html
----
+# Blog
+

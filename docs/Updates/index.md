@@ -1,10 +1,4 @@
 ---
-exclude_from_blog: true
+title: updates
 template: docs.html
-hide:
-  - navigation
 ---
-
-# Update Logs
-
-{{ blog_content }}
