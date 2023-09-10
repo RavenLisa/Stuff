@@ -1,4 +1,4 @@
---upgrade pip
+pip 23.2.1
 mkdocs
 mkdocs-material==9.2.8
 mkdocs-awesome-pages-plugin 
