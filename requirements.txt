@@ -5,3 +5,4 @@ mkdocs-awesome-pages-plugin
 pillow
 cairosvg
 mkdocs-blogging-plugin
+mkdocs-rss-plugin

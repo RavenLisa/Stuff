@@ -144,6 +144,15 @@ plugins:
       post_url_date_format: yyyy
       post_url_format: "{date}/{file}"
       post_dir: blog/posts
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+      comments_path: "#__comments"
+
   #- social:
   #    cards_color:
   #      fill: "#0FF1CE" 
