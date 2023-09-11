@@ -17,9 +17,3 @@ jobs:
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-blogging-plugin
       - run: mkdocs gh-deploy --force
-<<<<<<< HEAD
-
-=======
-      
-
->>>>>>> f4c7febc47fec5c3e7a24d08e42d10df99fb4655
