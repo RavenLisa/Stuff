@@ -79,7 +79,7 @@ extra:
     provider: google
     property: G-DK4D1FN7GD
     feedback:
-      title: Was this page helpful?
+      title: Was this guide helpful?
       ratings:
         - icon: material/heart
           name: Yep! This guide was helpful
