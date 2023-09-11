@@ -139,7 +139,6 @@ plugins:
   #      name: card
   - blog:
       blog_dir: blog
-      enabled: !ENV [CI, false]
       blog_dir: blog
       post_dir: blog/posts
   #- social:
