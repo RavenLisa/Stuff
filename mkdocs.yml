@@ -148,6 +148,8 @@ plugins:
   #      text: "#FFFFFF"
   
 nav:
+  - Blog:
+    - blog/index.md
   - Home: index.md
   - Scripting:
     - ... | flat | Scripting/*.md
