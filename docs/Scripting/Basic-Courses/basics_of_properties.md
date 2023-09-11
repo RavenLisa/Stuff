@@ -1,5 +1,5 @@
 ---
-title: Basics_Of_Properties
+title: Basics Of Properties
 template: docs.html
 comments: true
 hide:
