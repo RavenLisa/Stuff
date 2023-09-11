@@ -137,13 +137,14 @@ plugins:
   #    meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
   #   theme:
   #      name: card
+  - meta
   - blog:
-      blog_dir: blog
       enabled: !ENV [CI, true]
       blog_dir: blog
       post_url_date_format: yyyy
       post_url_format: "{date}/{file}"
       post_dir: blog/posts
+      pagination_per_page: 3
       
   #- social:
   #    cards_color:
