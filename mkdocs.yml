@@ -127,16 +127,21 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
-  #- blogging:
-  #    dirs: # The directories to be included
-  #      - Updates
-  #    features:
-  #      tags: {}
-  #      locale: en         # The locale for time localizations, default: system's locale
-  #    time_format: '%Y-%m-%d %H:%M:%S' # The format used to display the time
-  #    meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
-  #   theme:
-  #      name: card
+  - blogging:
+      dirs: # The directories to be included
+        - Updates
+      features:
+        tags: {}
+        locale: en         # The locale for time localizations, default: system's locale
+      time_format: '%Y-%m-%d' # The format used to display the time
+      meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
+      theme:
+        name: card
+      size: 5            # Number of articles in one page, default: 10
+      sort: 
+        from: new        # Sort from new to old, default
+               # or old         # Sort from old to new
+               by: creation     # Sort by the first commit time, default
   - blog:
       enabled: !ENV [CI, true]
       blog_dir: blog
