@@ -137,7 +137,13 @@ plugins:
   #    meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
   #   theme:
   #      name: card
-  - blog
+  - blog:
+      blog_dir: blog
+      enabled: !ENV [CI, true]
+      blog_dir: blog
+      post_url_date_format: yyyy
+      post_url_format: "{date}/{file}"
+      post_dir: blog/posts
   #- social:
   #    cards_color:
   #      fill: "#0FF1CE" 
@@ -146,51 +152,49 @@ plugins:
 nav:
   - Home: index.md
   - Scripting:
-    - ... | flat | scripting/*.md
-    # - scripting/home.md
+    - ... | flat | Scripting/*.md
+    # - Scripting/home.md
     - Basic-Courses:
-      - scripting/Basic-Courses/Introduction_To_Studio.md
-      - scripting/Basic-Courses/Variables.md
-      - scripting/Basic-Courses/Strings.md
-      - scripting/Basic-Courses/operators.md
-      - scripting/Basic-Courses/basics_of_properties.md
-      - scripting/Basic-Courses/If_statements.md
-      - scripting/Basic-Courses/basic_loops.md
+      - Scripting/Basic-Courses/Introduction_To_Studio.md
+      - Scripting/Basic-Courses/Variables.md
+      - Scripting/Basic-Courses/Strings.md
+      - Scripting/Basic-Courses/operators.md
+      - Scripting/Basic-Courses/basics_of_properties.md
+      - Scripting/Basic-Courses/If_statements.md
+      - Scripting/Basic-Courses/basic_loops.md
     - Intermediate-Courses:
-      - scripting/Intermediate-Courses/Basics_of_Functions.md
-      - scripting/Intermediate-Courses/Tables.md
-      - scripting/Intermediate-Courses/handling_events.md
-      - scripting/Intermediate-Courses/Scripts_and_Local_scripts.md
-      - scripting/Intermediate-Courses/Players_Service.md
-      - scripting/Intermediate-Courses/Character.md
-      - scripting/Intermediate-Courses/Tool.md
-      - scripting/Intermediate-Courses/modules.md
-      - scripting/Intermediate-Courses/Vector3.md
-      - scripting/Intermediate-Courses/Position_and_Size.md
-      - scripting/Intermediate-Courses/Tweening.md
-      - scripting/Intermediate-Courses/Attributes.md
-      - scripting/Intermediate-Courses/Data_Stores.md
-      - scripting/Intermediate-Courses/ContextActionService.md
-      - scripting/Intermediate-Courses/Collection_Service.md
-      - scripting/Intermediate-Courses/selection_and_highlights.md
-      - scripting/Intermediate-Courses/Remote_Events_And_Functions.md
-      - scripting/Intermediate-Courses/Bindable_events_and_functions.md
-      - scripting/Intermediate-Courses/intro_of_ui.md
-      - scripting/Intermediate-Courses/RayCasting.md
-      - scripting/Intermediate-Courses/globals.md
+      - Scripting/Intermediate-Courses/Basics_of_Functions.md
+      - Scripting/Intermediate-Courses/Tables.md
+      - Scripting/Intermediate-Courses/handling_events.md
+      - Scripting/Intermediate-Courses/Scripts_and_Local_scripts.md
+      - Scripting/Intermediate-Courses/Players_Service.md
+      - Scripting/Intermediate-Courses/Character.md
+      - Scripting/Intermediate-Courses/Tool.md
+      - Scripting/Intermediate-Courses/modules.md
+      - Scripting/Intermediate-Courses/Vector3.md
+      - Scripting/Intermediate-Courses/Position_and_Size.md
+      - Scripting/Intermediate-Courses/Tweening.md
+      - Scripting/Intermediate-Courses/Attributes.md
+      - Scripting/Intermediate-Courses/Data_Stores.md
+      - Scripting/Intermediate-Courses/ContextActionService.md
+      - Scripting/Intermediate-Courses/Collection_Service.md
+      - Scripting/Intermediate-Courses/selection_and_highlights.md
+      - Scripting/Intermediate-Courses/Remote_Events_And_Functions.md
+      - Scripting/Intermediate-Courses/Bindable_events_and_functions.md
+      - Scripting/Intermediate-Courses/intro_of_ui.md
+      - Scripting/Intermediate-Courses/RayCasting.md
+      - Scripting/Intermediate-Courses/globals.md
     - Advanced-Courses:
-      - scripting/Advanced-Courses/Vector3_Part_2.md
-      - scripting/Advanced-Courses/more_about_functions.md
-      - scripting/Advanced-Courses/More_on_Dictionaries.md
-      - scripting/Advanced-Courses/metatables.md
-      - scripting/Advanced-Courses/HttpService.md
-      - scripting/Advanced-Courses/Inheritance.md
-    # - ... | flat | scripting/*.md # not sorted yet
-  - Blog:
-    - blog/index.md
+      - Scripting/Advanced-Courses/Vector3_Part_2.md
+      - Scripting/Advanced-Courses/more_about_functions.md
+      - Scripting/Advanced-Courses/More_on_Dictionaries.md
+      - Scripting/Advanced-Courses/metatables.md
+      - Scripting/Advanced-Courses/HttpService.md
+      - Scripting/Advanced-Courses/Inheritance.md
+    # - ... | flat | Scripting/*.md # not sorted yet
   - ...
   - Updates:
-      - updates/index.md
+      - Updates/index.md
   - Others:
-    - ... | flat | others/*.md # not sorted yet
-  - Faq: faq/index.md
+    - ... | flat | Others/*.md # not sorted yet
+  - Faq: Faq/index.md
