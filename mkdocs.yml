@@ -141,7 +141,7 @@ plugins:
       sort: 
         from: new        # Sort from new to old, default
                # or old         # Sort from old to new
-               by: creation     # Sort by the first commit time, default
+         by: creation     # Sort by the first commit time, default
   - blog:
       enabled: !ENV [CI, true]
       blog_dir: blog
