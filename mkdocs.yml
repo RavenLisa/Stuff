@@ -137,13 +137,13 @@ plugins:
       theme:
         name: card
       size: 5            # Number of articles in one page, default: 10
-  - blog:
-      enabled: !ENV [CI, true]
-      blog_dir: blog
-      post_url_date_format: yyyy
-      post_url_format: "{date}/{file}"
-      post_dir: blog/posts
-      pagination_per_page: 3
+  #- blog:
+  #    enabled: !ENV [CI, true]
+  #    blog_dir: blog
+  #    post_url_date_format: yyyy
+  #    post_url_format: "{date}/{file}"
+  #    post_dir: blog/posts
+  #    pagination_per_page: 3
       
   #- social:
   #    cards_color:
@@ -196,6 +196,4 @@ nav:
   - ...
   - Others:
     - ... | flat | Others/*.md # not sorted yet
-  - Updates:
-    - index.md
   - Faq: Faq/index.md
