@@ -116,7 +116,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.arithmatex:
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
