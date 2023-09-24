@@ -149,8 +149,6 @@ plugins:
   
 nav:
   - Home: index.md
-  - Blog: 
-      - blog/index.md
   - Scripting:
     - ... | flat | Scripting/*.md
     # - Scripting/home.md
