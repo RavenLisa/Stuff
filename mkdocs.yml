@@ -136,10 +136,10 @@ plugins:
       size: 5            # Number of articles in one page, default: 10
   - blog:
       enabled: !ENV [CI, true]
-      blog_dir: blog
+      blog_dir: Pacthes
       post_url_date_format: yyyy
       post_url_format: "{date}/{file}"
-      post_dir: blog/posts
+      post_dir: Pacthes/posts
       pagination_per_page: 3
       
   #- social:
@@ -149,7 +149,8 @@ plugins:
   
 nav:
   - Home: index.md
-  - Blog: blog/index.md
+  - Pacthes: 
+      Pacthes/index.md
   - Scripting:
     - ... | flat | Scripting/*.md
     # - Scripting/home.md
