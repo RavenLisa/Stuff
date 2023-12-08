@@ -62,6 +62,14 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
 extra:
+  extra:
+  alternate:
+    - name: English
+      link: /cn/ 
+      lang: zh
+    - name: Deutsch
+      link: /de/
+      lang: de
   consent:
     title: Cookie consent
     description: >- 
